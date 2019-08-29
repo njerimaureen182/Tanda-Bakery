@@ -30,9 +30,10 @@ header > .container{
 .navbar-brand{
 	position: absolute;
 	width: 100%;
-	max-width: 100px;
-	top: 10px;
-	left: 50%;
+	/*height: 100px;*/
+	max-width: 300px;
+	top: 0;
+	left: 0;
 	transform: translateX(-50%);
 	transition: opacity 650ms;
 }
@@ -83,7 +84,7 @@ header > .container{
 	letter-spacing: 1.5px;
 	font-size: 20px;
 	transition: opacity 650ms;
-}
+} 
 .nav-list.open{
 	opacity: 1;
 	transform: scale(1);
